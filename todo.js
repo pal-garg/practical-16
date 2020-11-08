@@ -7,8 +7,9 @@ var todoList = document.querySelector(".todo-list");
 todoButton.onclick = create;
 
 // Functions
-function create()
+function create(e)
 {
+    e.preventDefault();
     var newDiv = document.createElement("div");
     newDiv.classList.add(".todo");
 
