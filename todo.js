@@ -29,4 +29,5 @@ function create(e)
     newDiv.appendChild(deletebtn);
 
     todoList.appendChild(newDiv);
+    todoInput.value ="";
 }
