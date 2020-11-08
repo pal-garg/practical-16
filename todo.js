@@ -38,4 +38,8 @@ function checkdelete(e){
       var parent = item.parentNode;
       parent.remove();
  }
+ if(item.classList[0]==="check-btn"){
+    var parent = item.parentNode;
+    parent.classListtoggle("completed");
+}
 }
