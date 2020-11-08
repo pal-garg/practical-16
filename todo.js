@@ -15,7 +15,7 @@ function create(e)
 
     var newLi = document.createElement("li");
     newLi.classList.add("todo-item");
-    newLi.innerHTML ="List";
+    newLi.innerHTML =todoInput.value;
     newDiv.appendChild(newLi);
 
     var checkbtn = document.createElement("button");
